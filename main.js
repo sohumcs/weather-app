@@ -50,7 +50,7 @@ function dayOfTheWeek(day, month, year) {
 
 function fetchWeatherData() {
   fetch(
-    `http://api.weatherapi.com/v1/current.json?key=1896f8851f9a44c9877124234241101&q=${cityInput}`
+    `https://api.weatherapi.com/v1/current.json?key=1896f8851f9a44c9877124234241101&q=${cityInput}`
   )
     .then((response) => response.json())
     .then((data) => {
