@@ -158,7 +158,7 @@ function fetchWeatherData() {
     })
 
     .catch(() => {
-      alert("City not found, please try again");
+      alert("City not found, please try agai");
       app.style.opacity = "1";
     });
 }
