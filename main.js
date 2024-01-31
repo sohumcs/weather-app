@@ -25,7 +25,7 @@ cities.forEach((city) => {
 
 form.addEventListener("submit", (e) => {
   if (search.value.length == 0) {
-    alert("Please type in a city nam");
+    alert("Please type in a city name");
   } else {
     cityInput = search.value;
     fetchWeatherData();
